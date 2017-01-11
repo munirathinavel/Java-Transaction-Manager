@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- The contents of this file will be loaded for each web application -->
+<Context reloadable="true">
+
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+	
+	<Transaction factory="com.tricon.tm.TriconTransactionManagerObjectFactory" />
+
+</Context>
